@@ -32,8 +32,6 @@ parser.add_argument('--max_epochs', type=int, help='Max number of training epoch
                   default=30)
 parser.add_argument('--dispFreq', type=int, help='Number of samples proccessed before print stats',
                   default=10)
-parser.add_argument('--decay_c', type=float, help='',
-                  default=0.0)
 parser.add_argument('--grad_clip', type=float, help='Maximum module of backpropagation gradients in GRU',
                   default=2.0)
 parser.add_argument('--maxlen_w', type=int, help='Maximum number of words in a sentence',
@@ -52,10 +50,6 @@ parser.add_argument('--reload_', type=str2bool, help='Reload existing model for 
                   default=False)
 parser.add_argument('--data_path', help='Path to data',
                   default='/gpfs/projects/bsc28/MME/data/')
-parser.add_argument('--use_glove', type=int, help='If 0, Do not use Glove embedding. One-hot embedding is used instead. If 1, Use a Glove embedding restricting vocabulary to train and validation words. If 2, Use unrestricted Glove embedding. vocabulary_size and vocabulary_min_num_samples are overiden.',
-                  default=0)
-parser.add_argument('--reduce_lr', type=str2bool, help='Reduce the learning rate after 15 epochs to 1/10 of original',
-                  default=False)
 parser.add_argument('--abs', type=str2bool, help='Take absolute value of the embeddings. Useful for order embeddings',
                   default=False)
 parser.add_argument('--img_norm', type=str2bool, help='Take L2 norm of image embedding. Useful for MH embeddings',

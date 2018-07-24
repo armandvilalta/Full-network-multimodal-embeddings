@@ -3,7 +3,6 @@ Dataset loading
 """
 from __future__ import print_function
 import numpy
-import paths
 import os.path as osp
 
 def load_dataset(dataset_name='f8k', 
