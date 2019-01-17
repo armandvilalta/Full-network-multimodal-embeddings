@@ -67,7 +67,7 @@ A detailed description of all the parameters can be found in ```parameters.py```
 
 If you found this code useful, please cite the following paper:
 Vilalta, Armand, et al. "Studying the impact of the Full-Network embedding on multimodal pipelines." Semantic Web Preprint: 1-15.
-´´´
+```
 @article{vilaltastudying,
   title={Studying the impact of the Full-Network embedding on multimodal pipelines},
   author={Vilalta, Armand and Garcia-Gasulla, Dario and Par{\'e}s, Ferran and Ayguad{\'e}, Eduard and Labarta, Jesus and Moya-S{\'a}nchez, E Ulises and Cort{\'e}s, Ulises},
@@ -76,7 +76,7 @@ Vilalta, Armand, et al. "Studying the impact of the Full-Network embedding on mu
   pages={1--15},
   publisher={IOS Press}
 }
-´´´
+```
 
 ## License
 
